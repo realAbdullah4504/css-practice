@@ -1,0 +1,24 @@
+body{
+    display:flex;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar{
+    position:fixed;
+    background-color: thistle;
+    height: 100vh;
+    width: 280px;
+}
+.main-content{
+    position: absolute;
+    /* padding: 20px; */
+    margin-left: 280px;
+    background-color: antiquewhite;
+    /* width:calc(100% - 280px); */
+    /* padding:0 300px; */
+    /* flex:1 1 100; */
+    /* right: 0%; */
+}
+

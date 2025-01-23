@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  background-color: aliceblue;
+  width: 600px;
+  outline: 5px solid yellow;
+}
+
+.item {
+  background-color: antiquewhite;
+  outline: 5px solid black;
+  padding: 0 30px;
+
+  /* flex:1 */
+  /* flex-basis: 100%; */
+}
+
+.no-2 {
+    /* padding:0 10px; */
+}
